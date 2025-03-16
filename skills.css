@@ -1,0 +1,89 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Main container */
+  main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  /* Skill section styling */
+  .skill-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Individual skill styling */
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Progress bar styling */
+  .skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 20px;
+  }
+  
+  .skill-level {
+    background-color: #4caf50;
+    height: 100%;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Optional: Animate skill bars on hover */
+  .skill-bar:hover .skill-level {
+    opacity: 0.9;
+  }
+  
+  /* Other skills list styling */
+  .skill-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
